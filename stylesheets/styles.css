@@ -352,7 +352,7 @@ footer {
 
 #right_ear {
     top: 20%;
-    left: 13%;
+    left: 31%;
     clip: rect(auto auto auto 75px);
     -webkit-transform: rotate(67deg);
     z-index: -2;
@@ -405,8 +405,8 @@ footer {
     width: 60px;
     height: 250px;
     border-radius: 76% 10%;
-    top: 49%;
-    left: 52%;
+    top: 113%;
+    left: 81%;
     -webkit-transform: rotate(6deg);
     z-index: -1;
 }
