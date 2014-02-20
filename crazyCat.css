@@ -18,11 +18,14 @@
 #head {
     width: 300px;
     height: 300px;
-    border: 1px solid #888888;
     top: 30px;
 }
 
-#head, #left_ear, #right_ear, #body {
+#head, #body, #left_lower_limb, #right_lower_limb {
+    border: 1px solid #888888;
+}
+
+#head, #left_ear, #right_ear, #body, #left_lower_limb, #right_lower_limb {
     background: orchid;
 }
 
@@ -102,4 +105,9 @@
     width: 360px;
     height: 450px;
     clip: rect(auto auto 322px auto);
+}
+
+#left_lower_limb, #right_lower_limb {
+    width: 145px;
+    height: 148px;
 }
