@@ -352,7 +352,7 @@ footer {
 
 #right_ear {
     top: 20%;
-    left: 13%;
+    left: 31%;
     clip: rect(auto auto auto 75px);
     -webkit-transform: rotate(67deg);
     z-index: -2;
