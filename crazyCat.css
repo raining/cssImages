@@ -10,7 +10,7 @@
 #right_eye, #right_eye_ball, #right_eye_ball_white,
 #mouth, #white_mouth,
 #left_ear, #right_ear,
-#body {
+#body, #left_lower_limb, #right_lower_limb {
     position: absolute;
     border-radius: 50%;
 }
@@ -23,6 +23,7 @@
 
 #head, #body, #left_lower_limb, #right_lower_limb {
     border: 1px solid #888888;
+    box-shadow: 0px 0px 7px gray;
 }
 
 #head, #left_ear, #right_ear, #body, #left_lower_limb, #right_lower_limb {
@@ -110,4 +111,16 @@
 #left_lower_limb, #right_lower_limb {
     width: 145px;
     height: 148px;
+    box-shadow: 2px 2px 7px gray;
+    border-radius: 50% 50% 4% 4%;
+}
+
+#left_lower_limb {
+    top: 38%;
+    left: 4%;
+}
+
+#right_lower_limb {
+    top: 38%;
+    left: 50%;
 }
